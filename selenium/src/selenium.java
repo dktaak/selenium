@@ -1,9 +1,10 @@
 import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
 public class selenium {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
 		/*System.out.println("enter ur name");//scan is an obj of Scanner
 		String name = scan.nextLine();//nextLine() is a method to input complete data data
@@ -34,10 +35,17 @@ public class selenium {
 		System.out.println("a is ="+a+"\nb is ="+b);
 		System.out.println(a+b);*/
 		
-		File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\javaselenium");//use \\ or / for path
-		                                                         //File is the class; File() is the method to access directories
-		fileobject.mkdir();
+		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.txt");//use \\ or / for path
+		                                                                   //File is the class; File() is the method to access directories
+		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.xls");
+		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.pdf");
+		File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.xls");
 		
+		//fileobject.mkdir();
+		fileobject.delete();//name not case sensitive
+		//fileobject.createNewFile();//throws ioexception mean if path(mention drive) is available then it will create file otherwise ignore creating 
+		
+		//Note: using file object we can create, delete all type of files, but can't conduct internal operations for all files like edit, written, read
 		
 		
 		
