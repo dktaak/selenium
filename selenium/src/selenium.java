@@ -39,10 +39,10 @@ public class selenium {
 		                                                                   //File is the class; File() is the method to access directories
 		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.xls");
 		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.pdf");
-		File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.xls");
+		File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.doc");
 		
 		//fileobject.mkdir();
-		fileobject.delete();//name not case sensitive
+		//fileobject.delete();//name not case sensitive
 		//fileobject.createNewFile();//throws ioexception mean if path(mention drive) is available then it will create file otherwise ignore creating 
 		
 		//Note: using file object we can create, delete all type of files, but can't conduct internal operations for all files like edit, written, read
