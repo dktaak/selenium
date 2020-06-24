@@ -78,13 +78,13 @@ public class selenium {
 		wr.close();//must to close bec it means save and close
 		file.close();//close
 		*/
-		
+		/*
 		//open file in read mode
 		FileReader rd= new FileReader("C:\\Users\\Infosys\\Desktop\\java0.txt");
 		BufferedReader br= new BufferedReader(rd);//to read data
 		
-		//File wr= new File("C:\\Users\\Infosys\\Desktop\\java1.txt");
-		//wr.createNewFile();
+		File wr= new File("C:\\Users\\Infosys\\Desktop\\java1.txt");
+		wr.createNewFile();
 		//open file in write mode
 		FileWriter wrr=new 	FileWriter("C:\\Users\\Infosys\\Desktop\\java1.txt");
 		BufferedWriter bw=new BufferedWriter(wrr);//to write data
@@ -93,14 +93,15 @@ public class selenium {
 		
 		while((line=br.readLine())!=null)
 		{
-			bw.append(line);
+			bw.write(line);
 			bw.newLine();
 		}
 		br.close();
 		bw.close();
 		rd.close();
 		wrr.close();
-	    
+	    */
+		
 		
 		
 		
