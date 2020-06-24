@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
 public class selenium {
@@ -27,11 +28,45 @@ public class selenium {
 			System.out.println("enter ur 10 digit ph no.");
 		long ph = scan.nextLong();
 		System.out.println("ur no. is :"+ ph);
-		}*/
+		}
 		int a=10,b=20;
 		System.out.println("ur no. is :"+(a+b));
 		System.out.println("a is ="+a+"\nb is ="+b);
-		System.out.println(a+b);
+		System.out.println(a+b);*/
+		
+		File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\javaselenium");//use \\ or / for path
+		                                                         //File is the class; File() is the method to access directories
+		fileobject.mkdir();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
