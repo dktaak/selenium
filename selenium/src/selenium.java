@@ -1,18 +1,21 @@
-import java.io.BufferedReader;
+//import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
 public class selenium {
 
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
+		//Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
 		/*System.out.println("enter ur name");//scan is an obj of Scanner
 		String name = scan.nextLine();//nextLine() is a method to input complete data data
 		System.out.println("ur name is :"+ name);//next() inputs word only from a line
 		String city =scan.next();
 		System.out.println("ur city is :"+ city);
+		System.out.println("");// to give a space of one line
 		System.out.println("enter ur no. is :");
 		long ph = scan.nextLong();
 		System.out.println("ur no. is :"+ ph);
@@ -41,7 +44,7 @@ public class selenium {
 		                                                                   //File is the class; File() is the method to access directories
 		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.xls");
 		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.pdf");
-		File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.doc");
+		//File fileobject=new  File("C:\\Users\\Infosys\\Desktop\\java.doc");
 		
 		//fileobject.mkdir();
 		//fileobject.delete();//name not case sensitive
@@ -51,10 +54,10 @@ public class selenium {
 		//Note: for internal operation use word,doc,pdf internal object
 		
 		//open the the txt file in read mode
-		FileReader ob=new FileReader("C:\\Users\\Infosys\\Desktop\\java.txt");
-		
+		//FileReader ob=new FileReader("C:\\Users\\Infosys\\Desktop\\java.txt");
+		/*
 		//read data from opened file
-		BufferedReader br = new BufferedReader(ob);//pass ob as agrument in bufferreader
+		BufferedReader br = new BufferedReader(ob);//pass ob as argument in bufferedreader
 		
 		String line; //line variable of type string to store red data
 		while((line=br.readLine())!=null)//chking red data in line should not be equal to null
@@ -63,8 +66,16 @@ public class selenium {
 		}
 		br.close();//to realease the mem occupied by the ob and br
 		ob.close();
+		*/
 		
-		
+		//To write data to a text file
+		FileWriter file= new FileWriter("C:\\Users\\Infosys\\Desktop\\java.txt");
+		//To write data in file
+		BufferedWriter wr= new BufferedWriter(file);
+		String data="welcome to selenium world";
+		wr.write(data);
+		wr.close();//must to close bec it means save and close
+		file.close();//close
 		
 		
 		
