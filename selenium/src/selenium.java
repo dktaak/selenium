@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
@@ -46,8 +48,21 @@ public class selenium {
 		//fileobject.createNewFile();//throws ioexception mean if path(mention drive) is available then it will create file otherwise ignore creating 
 		
 		//Note: using file object we can create, delete all type of files, but can't conduct internal operations for all files like edit, written, read
+		//Note: for internal operation use word,doc,pdf internal object
 		
+		//open the the txt file in read mode
+		FileReader ob=new FileReader("C:\\Users\\Infosys\\Desktop\\java.txt");
 		
+		//read data from opened file
+		BufferedReader br = new BufferedReader(ob);//pass ob as agrument in bufferreader
+		
+		String line; //line variable of type string to store red data
+		while((line=br.readLine())!=null)//chking red data in line should not be equal to null
+		{
+		System.out.println(line);
+		}
+		br.close();//to realease the mem occupied by the ob and br
+		ob.close();
 		
 		
 		
