@@ -101,17 +101,18 @@ public class selenium {
 		rd.close();
 		wrr.close();
 	    */
-		
+		/*
 		int a=5,b=0,c=9;
 		 try 
 		 {  c=a/b;
+		 System.out.println(c);
 		 }
 		 catch(ArithmeticException e1)
 		 {
-			 System.out.println("divide by zero error"); }
+			 System.out.println("divide by zero error"); }*/
 		
-		 System.out.println("no error");
-		
+		 
+		System.out.println("JAVA".equals("JAVA"));
 		
 		
 		
