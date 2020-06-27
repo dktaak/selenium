@@ -123,12 +123,21 @@ public class selenium {
 	    System.out.println(Math.random());//returns random no.
 	    Date mydate = new Date();//date is class mydate is created object 
 	    System.out.println(mydate);//returns date
-		
-		
-		
-		
-		
-		
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
 		
 		
 		
