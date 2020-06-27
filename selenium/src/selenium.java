@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Date;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
 public class selenium {
@@ -111,10 +112,17 @@ public class selenium {
 		 {
 			 System.out.println("divide by zero error"); }*/
 		
-		 
-		System.out.println("JAVA".equals("JAVA"));
-		
-		
+		//caomparision 
+		System.out.println("JAVA".equals("JAVA"));//COMPARISION
+		int a=7;
+		Integer x=a;
+	    System.out.println(x.compareTo(6));//returns 1
+	    System.out.println(x.compareTo(8));//returns -1
+	    System.out.println(x.compareTo(7));//returns 0
+	
+	    System.out.println(Math.random());//returns random no.
+	    Date mydate = new Date();//date is class mydate is created object 
+	    System.out.println(mydate);//returns date
 		
 		
 		
