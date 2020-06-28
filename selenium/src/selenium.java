@@ -126,7 +126,7 @@ public class selenium {
 	    System.out.println(mydate);//returns date
 	    */
 		
-		//function calling by (1) invoking object and (2) without invoking object done with static method
+		//function calling by (1) invoking object(on static method) and (2) without invoking object done with static method
 		
 		
 	    //calling fuction using invoking object
@@ -142,7 +142,7 @@ public class selenium {
 	    System.out.println(add());//without class name
 	    int v=add();//without class name
 	    System.out.println(v);
-		/*
+		*/
 	}
 	/*
 	public int add(int a,int b)
@@ -161,12 +161,18 @@ public class selenium {
 		int a=20,b=10;
 		int result=a+b;
 		return result;
-		*/
+		
 	}
 	
-	
-	
-	
+	*/
+	//for calling in class2
+	public static int add()
+	{
+		int a=20,b=10;
+		int result=a+b;
+		return result;
+		
+	}
 	
 	
 	
