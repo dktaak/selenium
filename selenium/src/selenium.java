@@ -125,16 +125,62 @@ public class selenium {
 	    Date mydate = new Date();//date is class mydate is created object 
 	    System.out.println(mydate);//returns date
 	    */
-	    
+		
+		//function calling by (1) invoking object and (2) without invoking object done with static method
+		
+		
+	    //calling fuction using invoking object
+		/*
 		selenium ob= new selenium();
 		int r=ob.add(25,30);
-		System.out.println(r);
+		System.out.println(r);*/
+		/*
+		//calling staic function
+	   int r= selenium.add();
+	    System.out.println(r);
+	    System.out.println(selenium.add());//with class name
+	    System.out.println(add());//without class name
+	    int v=add();//without class name
+	    System.out.println(v);
+		/*
 	}
+	/*
 	public int add(int a,int b)
 	{
 		int result=a+b;
 		return result;
 		
 	}
-
+      */
+	
+	//calling fuction without wihtout invoking object can be done with static fuction
+	// can be done by calling fuction with class name outside class and inside class without class name
+	/*
+		public static int add()
+	{
+		int a=20,b=10;
+		int result=a+b;
+		return result;
+		*/
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
