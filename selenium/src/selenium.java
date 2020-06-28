@@ -10,6 +10,7 @@ import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
 public class selenium {
 
+
 	public static void main(String[] args) throws IOException {
 		Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
 		/*System.out.println("enter ur name");//scan is an obj of Scanner
@@ -111,7 +112,7 @@ public class selenium {
 		 catch(ArithmeticException e1)
 		 {
 			 System.out.println("divide by zero error"); }*/
-		
+		/*
 		//caomparision 
 		System.out.println("JAVA".equals("JAVA"));//COMPARISION
 		int a=7;
@@ -123,36 +124,16 @@ public class selenium {
 	    System.out.println(Math.random());//returns random no.
 	    Date mydate = new Date();//date is class mydate is created object 
 	    System.out.println(mydate);//returns date
+	    */
 	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		selenium ob= new selenium();
+		int r=ob.add(25,30);
+		System.out.println(r);
+	}
+	public int add(int a,int b)
+	{
+		int result=a+b;
+		return result;
 		
 	}
 
