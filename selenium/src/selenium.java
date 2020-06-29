@@ -215,6 +215,14 @@ public class selenium {
 	System.out.println(str);
 	System.out.println();
 	
+	System.out.println(Arrays.toString(y));
+	System.out.println(str);
+	System.out.println();
+	
+	System.out.println(Arrays.toString(y));
+	System.out.println(str);
+	System.out.println();
+	
 	
 	
 	}	
