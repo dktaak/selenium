@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
 
@@ -143,7 +144,7 @@ public class selenium {
 	    int v=add();//without class name
 	    System.out.println(v);
 		*/
-	}
+	
 	/*
 	public int add(int a,int b)
 	{
@@ -165,6 +166,7 @@ public class selenium {
 	}
 	
 	*/
+	/*
 	//for calling in class2
 	public static int add()
 	{
@@ -174,19 +176,46 @@ public class selenium {
 		
 	}
 	
+	*/
+	
+	//JAVA predefined methods
+	               // 1)string method
+                   // 2)number meth
+                   // 3)character meth
+	//1) isLetter : give boolean o/p whether the value is letter(alphabet) or not
+	char a='w';
+	System.out.println(Character.isLetter('w'));//true
+	System.out.println(Character.isLetter('1'));//false
+	System.out.println(Character.isLetter('a'));//true
+	System.out.println(Character.isLetter('*'));//false
+	
+	//isDigit() returns weather the value is number or not
+	
+	System.out.println(Character.isDigit('5'));//true
+	System.out.println(Character.isDigit('w'));//f
+	System.out.println(Character.isDigit('%'));//f
+	System.out.println(Character.isDigit('1'));//true
+	
+	System.out.println(Character.isLowerCase('1'));//f
+	System.out.println(Character.isLowerCase('w'));//true
+	System.out.println(Character.isLowerCase('A'));//f
+	
+	System.out.println(Character.isUpperCase('1'));//f
+	System.out.println(Character.isUpperCase('w'));//f
+	System.out.println(Character.isUpperCase('A'));//true
+	System.out.println();
+	//Array method
+	//1) lenth of array
+	int x[]= {10,20,30,50};
+	String y[]= {"dinesh","rohit"};
+	System.out.println(x.length);//4
+	// copy array to srting
+	String str=Arrays.toString(x);
+	System.out.println(Arrays.toString(y));
+	System.out.println(str);
+	System.out.println();
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }
