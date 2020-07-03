@@ -216,7 +216,51 @@ public class selenium {
 	System.out.println();
 	
 	
-	String str1="Selenium";
+	String str1=" Selenium ";
+	String str4="Testing";
+	String str3="Testing";
+	String str2="selenium";
+	String str5="Selenium";
+	
+	//string concatenation using + operator
+	System.out.println(str1+str2);
+	
+	//using concat method
+	System.out.println(str1.concat(str2));
+	
+	System.out.println("dinesh"+" taak");
+	System.out.println("dinesh".concat(" taak"));
+	System.out.println("dinesh"+1+2);
+	System.out.println(4+3+"dinesh");
+	
+	//comparison using relational == operator
+	System.out.println(str1==str2);//f
+	System.out.println("Selenium"=="selenium");//f
+	System.out.println("Selenium"==" Selenium");//f
+	System.out.println("Selenium"=="selenium");//f
+	System.out.println(str3==str4);//f
+	//two way comparion
+	System.out.println(str1.equals(str2));//f
+	System.out.println(str3.equals(str4));//t
+	
+	//three way comparison
+	System.out.println("sel".compareTo("Sel"));//+
+	System.out.println(str3.compareTo(str4));//0
+	System.out.println(str1.compareTo(str2));//-
+	System.out.println(str5.compareTo(str2));//-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	}	
