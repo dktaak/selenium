@@ -292,6 +292,7 @@ public class selenium {
 	char b[]= {'d','v','f'};
 	System.out.println(a[2]);
 	System.out.println(b[2]);
+	System.out.println(b[2]+b[0]);
 	
 	
 	
