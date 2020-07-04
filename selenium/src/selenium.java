@@ -249,7 +249,7 @@ public class selenium {
 	System.out.println(str1.compareTo(str2));//-
 	System.out.println(str5.compareTo(str2));//-
 	*/
-	
+	/*
 		String str1=" SELENIUM ";
 		String str4="Testing";
 		String str3="Testing is done";
@@ -270,14 +270,28 @@ public class selenium {
 	System.out.println(str2.endsWith("nium"));//t
 	System.out.println(str3.endsWith("done"));//t
 	System.out.println(str3.endsWith("is"));//false ,only chk ends with word not inbetween
+*/
+	/*
+	//arrray
+	int a[];//array declared 1st method
+	a= new int [5];//size defined
+	a[0]=10;
+	a[1]=30;
+	a[2]=60;
+	System.out.println(a[0]+a[2]);
 	
+	//2nd
 	
-	
-	
-	
-	
-	
-	
+	int []a=new int[3];
+	a[0]=10;
+	a[1]=30;
+	a[2]=60;
+	System.out.println(a[0]+a[2]);
+	*/
+	int a[]= {10,20,30};
+	char b[]= {'d','v','f'};
+	System.out.println(a[2]);
+	System.out.println(b[2]);
 	
 	
 	
