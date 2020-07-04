@@ -293,7 +293,7 @@ public class selenium {
 	System.out.println(a[2]);
 	System.out.println(b[2]);
 	System.out.println(b[2]+b[0]);
-	*/
+	
 		
     // use of absolute fuction which gives +ve values or take modulus
 	int a=-136;
@@ -321,8 +321,12 @@ public class selenium {
 	System.out.println(Math.max(c,d));//d
 
 	System.out.println(Math.random());//generate random no.
+    */
+	//array chk
+		String b[]= {"Dinesh","kumar","taak"};
 
-	
+	    boolean r1=Arrays.asList(b).contains("kumar");//true
+		System.out.println(r1);
 	
 	
 	
