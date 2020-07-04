@@ -177,7 +177,7 @@ public class selenium {
 	}
 	
 	*/
-	
+	/*
 	//JAVA predefined methods
 	               // 1)string method
                    // 2)number meth
@@ -248,7 +248,28 @@ public class selenium {
 	System.out.println(str3.compareTo(str4));//0
 	System.out.println(str1.compareTo(str2));//-
 	System.out.println(str5.compareTo(str2));//-
+	*/
 	
+		String str1=" SELENIUM ";
+		String str4="Testing";
+		String str3="Testing is done";
+		String str2="selenium";
+		String str5="Selenium";
+		
+	System.out.println(str5.charAt(5));//i
+	//System.out.println(str5.charAt(11));//will give runtime error
+	
+	System.out.println(str5.equalsIgnoreCase(str1));//false due space before selenium
+	System.out.println(str5.charAt(2));//t
+	System.out.println(str2.toUpperCase());//i
+	System.out.println(str1.toLowerCase());//lower
+	System.out.println(str2.substring(3));//enium
+	System.out.println(str2.substring(3,6));//eni
+	
+	System.out.println(str1.endsWith("ium"));//false due to lower case so it chks 2 way comparison
+	System.out.println(str2.endsWith("nium"));//t
+	System.out.println(str3.endsWith("done"));//t
+	System.out.println(str3.endsWith("is"));//false ,only chk ends with word not inbetween
 	
 	
 	
