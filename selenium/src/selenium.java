@@ -306,7 +306,11 @@ public class selenium {
 	System.out.println(Math.abs(c));//1.24
 	System.out.println(Math.abs(d));//235.6
 	
-	
+	//round() round nearest to integer
+	System.out.println(Math.round(a));//-136
+	System.out.println(Math.round(b));//33
+	System.out.println(Math.round(c));//-1
+	System.out.println(Math.round(d));//235
 	
 	
 	
