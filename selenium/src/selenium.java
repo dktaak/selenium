@@ -311,6 +311,17 @@ public class selenium {
 	System.out.println(Math.round(b));//33
 	System.out.println(Math.round(c));//-1
 	System.out.println(Math.round(d));//235
+	//max min
+	System.out.println();//n
+
+	System.out.println(Math.min(a,b));//a
+	System.out.println(Math.min(b,a));//a
+	System.out.println(Math.min(c,d));//c
+	System.out.println(Math.max(a,b));//b
+	System.out.println(Math.max(c,d));//d
+
+	
+	
 	
 	
 	
