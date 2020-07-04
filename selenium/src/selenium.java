@@ -287,12 +287,24 @@ public class selenium {
 	a[1]=30;
 	a[2]=60;
 	System.out.println(a[0]+a[2]);
-	*/
+	
 	int a[]= {10,20,30};
 	char b[]= {'d','v','f'};
 	System.out.println(a[2]);
 	System.out.println(b[2]);
 	System.out.println(b[2]+b[0]);
+	*/
+		
+    // use of absolute fuction which gives +ve values or take modulus
+	int a=-136;
+	int b=33;
+	double c=-1.24;
+	double d=235.6;
+	
+	System.out.println(Math.abs(a));//136
+	System.out.println(Math.abs(b));//33
+	System.out.println(Math.abs(c));//1.24
+	System.out.println(Math.abs(d));//235.6
 	
 	
 	
