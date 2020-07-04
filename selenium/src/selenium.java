@@ -320,7 +320,8 @@ public class selenium {
 	System.out.println(Math.max(a,b));//b
 	System.out.println(Math.max(c,d));//d
 
-	
+	System.out.println(Math.random());//generate random no.
+
 	
 	
 	
