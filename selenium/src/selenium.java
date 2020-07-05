@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
@@ -13,7 +14,7 @@ public class selenium {
 
 
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
+		//Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
 		/*System.out.println("enter ur name");//scan is an obj of Scanner
 		String name = scan.nextLine();//nextLine() is a method to input complete data data
 		System.out.println("ur name is :"+ name);//next() inputs word only from a line
@@ -322,14 +323,59 @@ public class selenium {
 
 	System.out.println(Math.random());//generate random no.
     */
+	/*
 	//array chk
-		String b[]= {"Dinesh","kumar","taak"};
+	String b[]= {"Dinesh","kumar","taak"};
+	boolean r1=Arrays.asList(b).contains("kumar");//true
+	System.out.println(r1);
+	*/
+	//array is static ArrayList is dynamic(add/remove elements dynamically)
+	 ArrayList <Integer> a=new ArrayList<>(); 
+	//add elements
+	a.add(10);
+	a.add(20);
+	a.add(40);
+	a.add(5);
+	
+	System.out.println(a.size());//4 return size of array in term of number of lements stored
+    System.out.println(a.get(1));//20
+    int u=a.get(2);
+    System.out.println(u);//
+    a.remove(0);
+    System.out.println(a.size());
+    System.out.println(a.get(0));
+    a.clear();
+    System.out.println(a.size());
+    a.add(0,10);
+    a.add(60);
+    a.add(1,20);//replace element at index 1
+    a.add(30);
+    a.set(1, 50);//replace element
+    System.out.println(a.get(1));
+    System.out.println(a.get(1)); 
 
-	    boolean r1=Arrays.asList(b).contains("kumar");//true
-		System.out.println(r1);
-	
-	
-	
-	
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
+    		
 	}	
 }
