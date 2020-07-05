@@ -328,7 +328,7 @@ public class selenium {
 	String b[]= {"Dinesh","kumar","taak"};
 	boolean r1=Arrays.asList(b).contains("kumar");//true
 	System.out.println(r1);
-	*/
+	
 	//array is static ArrayList is dynamic(add/remove elements dynamically)
 	 ArrayList <Integer> a=new ArrayList<>(); 
 	//add elements
@@ -353,7 +353,47 @@ public class selenium {
     a.set(1, 50);//replace element
     System.out.println(a.get(1));
     System.out.println(a.get(1)); 
-
+    
+    //type casting
+    int a=10;
+    byte b=30;
+    
+    int c=a+b;//implicit type casting is converted smaller to bigger
+    System.out.println(c);
+    byte d;
+    //d=a+b; is error as implicitly int is not converted to byte
+    d=(byte) (a+b);//so explicit type casting is done
+    System.out.println(d);
+    
+    //to convert string to int
+    //only convert digits assigned in "" //not convert alphabetic and special charater cxcept with "."
+    */
+    String a="10";
+    String b="20";
+    String c="abc";
+    String k="30.36";
+    
+    System.out.println(a+b);//1020 only concatenate here bec not converted to int
+    
+    int n1=Integer.parseInt(a);
+    int n2=Integer.parseInt(b);
+    
+    System.out.println(n1+n2);//30 here o/p is 30 bec 10 and 20 converted to integer
+    //int d =System.out.println(c);//here it will give run time error bec not convert string 
+    
+    System.out.println(Double.parseDouble(k));//convert to double
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     		
     		
     		
