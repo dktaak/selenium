@@ -1,5 +1,7 @@
 //NOTE multiple inheritance NOT allowed
 
+
+package selenium;
 /*
 //import java.io.BufferedReader;
 import java.io.BufferedReader;
