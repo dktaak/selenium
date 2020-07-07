@@ -2,7 +2,7 @@
 
 
 package selenium;
-/*
+
 //import java.io.BufferedReader;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
-*/
+
 public class selenium {
 	
 	//inheritance
@@ -46,6 +46,14 @@ public class selenium {
 	    //se.add_st();//static can be called with or without object
 		//add_st();//called static without object
 	
+		//abstract method
+		//it means fuction with no body or dummy function
+		//abstrct class can hv abstra ct method
+		//it should hv atleat one concrete method
+		//abtract class dont hv object
+		
+		
+		
 		
 		//Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
 		/*System.out.println("enter ur name");//scan is an obj of Scanner

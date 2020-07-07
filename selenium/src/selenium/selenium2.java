@@ -20,7 +20,6 @@ public class selenium2 extends selenium//selenium2 inherited selenium class of s
 	
 	
 	
-	
 	public static void main(String[] args) {
 		selenium obj = new selenium();//object created to access non static member of parent class
 		selenium2 obj2 = new selenium2();//object of selenium2 class can access non static member of parent class due to inheritance
