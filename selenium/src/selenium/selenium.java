@@ -1,3 +1,6 @@
+//NOTE multiple inheritance NOT allowed
+
+/*
 //import java.io.BufferedReader;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,11 +12,39 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;//Scanner is a class is used to input from keyboard
-
+*/
 public class selenium {
+	
+	//inheritance
+     
+	public int x=10,y=13;
+	public static int d=25;//static variable can be used for entire class
+	
+	public void add()
+	{int c=x+y;//inside non static function , we can static and non static variables
+	
+	System.out.println(c);
+	}
 
-
+	public static void add_st()//**static method can be defined only outsude of main method
+	{
+		int c=d;//inside static only static variable can be used
+		
+	System.out.println(c);
+	}
 	public static void main(String[] args) throws IOException {
+		int g=90,h=100;
+		selenium se=new selenium();
+		//System.out.println(d);//static variable can only be called with or without object
+		//System.out.println(se.y);//non static variable can only be called with object
+		//selenium.add_st();//static can be called with class name
+		
+		//se.add();//non static function call using object
+		//add();  can't call non static fun without objectif object is out of main defined
+	    //se.add_st();//static can be called with or without object
+		//add_st();//called static without object
+	
+		
 		//Scanner scan = new Scanner(System.in);//Scanner is predefined class under java.util.Scanner
 		/*System.out.println("enter ur name");//scan is an obj of Scanner
 		String name = scan.nextLine();//nextLine() is a method to input complete data data
@@ -367,7 +398,7 @@ public class selenium {
     
     //to convert string to int
     //only convert digits assigned in "" //not convert alphabetic and special charater cxcept with "."
-    */
+    
     String a="10";
     String b="20";
     String c="abc";
@@ -383,7 +414,12 @@ public class selenium {
     
     System.out.println(Double.parseDouble(k));//convert to double
     
-    
+    */
+		
+	//Inheritance
+		
+	
+		
     
     
     
