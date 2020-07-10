@@ -35,7 +35,7 @@ public class web {
 	    {
 	    	System.out.println("Login Fail");
 	    }
-	    driver.close();//close the browser window
+	    driver.close();//close the browser window window
 	
 	}
 
